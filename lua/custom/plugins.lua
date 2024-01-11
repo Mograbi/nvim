@@ -1,9 +1,11 @@
 local plugins = {
+  { 'nvim-lua/plenary.nvim', lazy = false },
+  { 'nvim-pack/nvim-spectre', lazy = false },
   { "dmmulroy/tsc.nvim", lazy = false},
   { "tpope/vim-fugitive", lazy = false},
   { 'pwntester/octo.nvim', lazy = false},
   { "github/copilot.vim", lazy = false},
-  {"nvim-tree/nvim-web-devicons", lazy = false},
+  { "nvim-tree/nvim-web-devicons", lazy = false},
   {
   "neovim/nvim-lspconfig",
    config = function()
