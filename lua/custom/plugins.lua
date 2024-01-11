@@ -5,6 +5,7 @@ local plugins = {
   { "tpope/vim-fugitive", lazy = false},
   { 'pwntester/octo.nvim', lazy = false},
   { "github/copilot.vim", lazy = false},
+  { "ellisonleao/gruvbox.nvim", lazy = false, priority = 1000 , config = true, opts = ...},
   { "nvim-tree/nvim-web-devicons", lazy = false},
   {
   "neovim/nvim-lspconfig",
