@@ -281,3 +281,7 @@ vim.g.copilot_filetypes = {
   ["python"] = true,
 }
 vim.g.copilot_assume_mapped = true
+
+vim.opt.relativenumber = true -- Enable relative line numbers
+vim.opt.number = true         -- Enable absolute line number for the current line
+
